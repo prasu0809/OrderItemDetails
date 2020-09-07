@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: controller.OrderItemsDetailsControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1.892 sec <<< FAILURE! - in controller.OrderItemsDetailsControllerTest
+testFindAll(controller.OrderItemsDetailsControllerTest)  Time elapsed: 1.176 sec  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:665)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at controller.OrderItemsDetailsControllerTest.testFindAll(OrderItemsDetailsControllerTest.java:94)
+
+testCreateOrderItemDetails(controller.OrderItemsDetailsControllerTest)  Time elapsed: 0.247 sec  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:665)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at controller.OrderItemsDetailsControllerTest.testCreateOrderItemDetails(OrderItemsDetailsControllerTest.java:52)
+
+getOrderDetailsTest(controller.OrderItemsDetailsControllerTest)  Time elapsed: 0.05 sec  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:665)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at controller.OrderItemsDetailsControllerTest.getOrderDetailsTest(OrderItemsDetailsControllerTest.java:77)
+

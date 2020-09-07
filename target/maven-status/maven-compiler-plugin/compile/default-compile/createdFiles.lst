@@ -1,0 +1,5 @@
+com/orderManagementService/controller/OrderItemServiceController.class
+com/orderManagementService/repository/OrderItemDetailsServiceRepository.class
+com/orderManagementService/OrderManagementServiceApplication.class
+com/orderManagementService/dao/OrderItemDetailsDao.class
+com/orderManagementService/model/OrderItemDetails.class
